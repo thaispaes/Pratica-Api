@@ -20,21 +20,6 @@
   <div id="root"></div>
 
   <script src="./assets/js/scripts.js"></script>
-  <script lang="javascript">
-    $.ajax({
-        url : 'https://kitsu.io/api/edge/anime',
-        type : 'GET',
-        dataType : 'jsonp',
-        success : function(animesAsJson){
-            if(animeAsJson == undefined){
-                alert("Deu merda")
-            }
-            else {
-                console.log(animeAsJson);
-            }
-        }
-      });
-  </script>
 </body>
 
 </html>
